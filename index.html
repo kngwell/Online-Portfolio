@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src = "script.js"></script>
+    <title>Davis Brown</title>
+</head>
+<body>
+<header>
+    <div id = Name>
+        <h1>Davis Brown</h1>
+        <img src="assets/pfp.jpeg" alt="A photo of Davis Brown leaning against a blue wall">
+    </div>
+    <div id = about>
+        <h1> About me</h1>
+        <p> Hi, my name is Davis Brown.  I'm a full stack software engineer with a background in data analytics and SQL. I'm always looking for new challenges to expand my skils. If you find what I have on here interesting, please don't hesitate to reach out to me!</p>
+    </div>
+</header>
+<nav>
+    <div class="dropdown1">
+    <button onclick="projects()">Projects</button>
+        <div id = completed style="display:none">
+        <ul>
+        <li><a href="placeholder.net">Project one</a></li>
+        <li><a href="placeholder.net">Project two</a></li>
+        <li><a href="placeholder.net">Project three</a></li>
+        </ul>
+    </div>
+    </div>
+    <div class="dropdown2">
+    <button onclick="wip()">Projects in Progress</button>
+         <div id = wip style="display:none">
+            <ul>
+                <li><a href="placeholder.net">Project one</a></li>
+                <li><a href="placeholder.net">Project two</a></li>
+                <li><a href="placeholder.net">Project three</a></li>
+                </ul>
+    </div>
+</div>
+    <div class="dropdown3">
+    <button onclick="socials()">Connect with Me</button>
+        <div id = socials style="display:none">
+        <ul>
+            <li><a href="placeholder.net">LinkedIn</a></li>
+        </ul>
+    </div>
+</div>
+</nav>
+    <div class="resources">
+    <div id = email>
+        <h3><a href="mailto: davis.kingwell.brown@gmail.com">Email Me</a></h3>
+       
+    </div>
+    <div id = resume>
+        <h3> <a href="https://docs.google.com/document/d/1G6YiV0gjUt31v-GBedzLkWsOCbQn1RKMeOZNwEKrE78/edit?usp=sharing">Resume</a></h3>
+       
+    </div>
+    </div>
+</body>
+</html>
