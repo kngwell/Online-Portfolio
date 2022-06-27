@@ -8,9 +8,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <script src = "script.js"></script>
+    <script defer src = "script.js"></script>
     <title>Davis Brown</title>
 </head>
+
 <body>
 <header>
     <div id = Name>
@@ -22,36 +23,44 @@
         <p> Hi, my name is Davis Brown.  I'm a full stack software engineer with a background in data analytics and SQL. I'm always looking for new challenges to expand my skils. If you find what I have on here interesting, please don't hesitate to reach out to me!</p>
     </div>
 </header>
+
+
 <nav>
     <div class="dropdown1">
-    <button onclick="projects()">Projects</button>
-        <div id = completed style="display:none">
-        <ul>
-        <li><a href="placeholder.net">Project one</a></li>
-        <li><a href="placeholder.net">Project two</a></li>
-        <li><a href="placeholder.net">Project three</a></li>
-        </ul>
-    </div>
-    </div>
-    <div class="dropdown2">
-    <button onclick="wip()">Projects in Progress</button>
-         <div id = wip style="display:none">
-            <ul>
+        <button onclick="projects()"> Completed Projects</button>
+            <div id = completed style="display:none">
+             <ul>
                 <li><a href="placeholder.net">Project one</a></li>
                 <li><a href="placeholder.net">Project two</a></li>
                 <li><a href="placeholder.net">Project three</a></li>
-             </ul>
+            </ul>
+        </div>
     </div>
-</div>
+
+
+     <div class="dropdown2">
+        <button onclick="wip()">Projects in Progress</button>
+             <div id = wip style="display:none">
+                <ul>
+                    <li><a href="placeholder.net">Project one</a></li>
+                    <li><a href="placeholder.net">Project two</a></li>
+                    <li><a href="placeholder.net">Project three</a></li>
+                </ul>
+        </div>
+    </div>
+
+
     <div class="dropdown3">
-    <button onclick="socials()">Connect with Me</button>
-        <div id = socials style="display:none">
-        <ul>
-            <li><a href="placeholder.net">LinkedIn</a></li>
-        </ul>
-    </div>
-</div>
-</nav>
+        <button onclick="socials()">Connect with Me</button>
+            <div id = socials style="display:none">
+                <ul>
+                    <li><a href="placeholder.net">LinkedIn</a></li>
+                    <li><a href="placeholder.net">GitHub</a></li>
+                </ul>
+        </div>
+    </nav>
+
+
     <div class="resources">
     <div id = email>
         <h3><a href="mailto: davis.kingwell.brown@gmail.com">Email Me</a></h3>

@@ -1,6 +1,12 @@
 body{
-    background-color: rgb(0, 0, 0);
+   background-image: linear-gradient(to right, rgba(86,183,230,1.00), black);
     font-family: 'Roboto Mono', monospace;
+}
+a:link{
+    color: white;
+}
+a:visited{
+    color: gray;
 }
 img{
     max-width: 50%;
@@ -11,39 +17,70 @@ header{
     flex-direction: justify;
     justify-content: space-around;
     color: rgb(255, 255, 255);
+    margin-bottom: 40px;
+    padding: 40px;
 }
 nav{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     color: rgb(255, 255, 255);
-    margin-bottom: 90px;
-    padding: 10px;
+  
 }
 button{
     background-color: black;
     border: none;
     color: rgb(255, 255, 255);
+    font-size: x-large;
+    border: 1px solid white;
 }
+
 .dropdown1{
     position: relative;
-    min-width: 160px;
+    display: block;
+   
 }
-.completed{
-    color: black;
-    padding: 12px 16px;
+
+#completed{
     position: absolute;
-    text-decoration: none;
+    margin: 0;
+    font-size: small;
+}
+
+.dropdown2{
+    position: relative;
     display: block;
 }
-.dropdown2{
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
+#wip{
+    position: absolute;
+    margin: 0;
+    font-size: small;
+   
+}
+.dropdown3{
+    position: relative;
     display: block;
- }
+}
+#socials{
+    position: absolute;
+    margin: 0;
+    font-size: small;
+}
+
 .resources{
     display: flex;
-    flex-direction: justify;
     justify-content: space-around;
     color: rgb(255, 255, 255);
+    margin: 200px;
 }
+@media only screen and (max-width: 600px) {
+  body{
+    font-family: 'Roboto Mono', monospace;
+  }
+  header{
+    display: block;
+  }
+  .resources{
+    color: rgb(255, 255, 255);
+    margin: 100px;
+}
+  }

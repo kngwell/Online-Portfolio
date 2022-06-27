@@ -1,7 +1,7 @@
 console.log("test")
 
 function projects() {
-    var pj = document.getElementById("completed");
+    let pj = document.getElementById("completed");
     if (pj.style.display === "none") {
       pj.style.display = "block";
     } else {
@@ -10,7 +10,7 @@ function projects() {
   }
 
   function wip() {
-    var wp = document.getElementById("wip");
+    let wp = document.getElementById("wip");
     if (wp.style.display === "none") {
       wp.style.display = "block";
     } else {
@@ -18,7 +18,7 @@ function projects() {
     }
   }
   function socials() {
-    var sc = document.getElementById("socials");
+    let sc = document.getElementById("socials");
     if (sc.style.display === "none") {
       sc.style.display = "block";
     } else {
@@ -26,3 +26,4 @@ function projects() {
     }
   }
   
+
