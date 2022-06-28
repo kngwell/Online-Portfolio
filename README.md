@@ -15,7 +15,7 @@ Simply visit this link https://davisbrown.netlify.app/ to take a look at the dep
 ![An image of the main page](/assets/Screen%20Shot%202022-06-28%20at%2010.26.27%20AM.png)
 
 ## Why?
-This website was built out so I could continue to update it with new things throughout my progamming journey.  It will serve to showcase my skills as a developer for potential employers.  
+This website was built out so I could continue to update it with new things throughout my progamming journey.  It will serve to showcase my skills as a developer for potential employers.  I want all of my links to be easily available for whoever looks at my profile.  
 
 ## Original Wireframe
 ![an image of a rough layout of the website](/assets/Screen%20Shot%202022-06-28%20at%2010.31.35%20AM.png)
