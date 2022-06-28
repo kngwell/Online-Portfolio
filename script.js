@@ -1,4 +1,4 @@
-console.log("test")
+// buttons to display projects, work in progress, and socials divs
 
 function projects() {
     let pj = document.getElementById("completed");
@@ -26,8 +26,16 @@ function projects() {
     }
   }
 
+  //landing page functions.  
+const everything = document.querySelector('.hide')
+const welcome = document.querySelector('.welcometext')
 
-
+function letMeIn(){
+    everything.classList.remove('hide')
+    welcome.classList.add('hide')
+    
+}
+//a surprise button sets background to my dog
 function toronto(){
       if (document.body.style.backgroundImage != "url('assets/t3.jpeg')"){
         document.body.style.backgroundImage = "url('assets/t3.jpeg')";
@@ -35,4 +43,4 @@ function toronto(){
 }
 
 
-//toronto()
+

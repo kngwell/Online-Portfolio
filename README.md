@@ -1,2 +1,2 @@
 # Online-Portfolio
-Online portfolio prodject
+Online portfolio project
