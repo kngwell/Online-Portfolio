@@ -1,5 +1,6 @@
 body{
-   background-image: linear-gradient(to right, rgba(86,183,230,1.00), black);
+    background-image: linear-gradient(to right, rgba(86,183,230,1.00), black);
+    background-size: contain;
     font-family: 'Roboto Mono', monospace;
 }
 a:link{
@@ -70,7 +71,8 @@ button{
     display: flex;
     justify-content: space-around;
     color: rgb(255, 255, 255);
-    margin: 200px;
+    margin: 100px;
+    padding: 5px;
 }
 @media only screen and (max-width: 600px) {
   body{

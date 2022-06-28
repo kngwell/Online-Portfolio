@@ -25,5 +25,14 @@ function projects() {
       sc.style.display = "none";
     }
   }
-  
 
+
+
+function toronto(){
+      if (document.body.style.backgroundImage != "url('assets/t3.jpeg')"){
+        document.body.style.backgroundImage = "url('assets/t3.jpeg')";
+    } 
+}
+
+
+//toronto()
